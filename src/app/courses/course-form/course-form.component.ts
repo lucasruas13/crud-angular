@@ -3,17 +3,15 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-course-form',
-  standalone: true,
-  imports: [],
   templateUrl: './course-form.component.html',
-  styleUrl: './course-form.component.scss'
+  styleUrls: ['./course-form.component.scss']
 })
 export class CourseFormComponent implements OnInit {
 
   form: FormGroup;
 
   constructor(private formBuilder: FormBuilder) {
-    this.form = this.formBuilder.group({
+    this.form = this.formBuilder.group( {
       name: [null],
       category: [null]
     });
