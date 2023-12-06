@@ -21,4 +21,12 @@ export class CourseFormComponent implements OnInit {
 
   }
 
+  onSubmit() {
+
+  }
+
+  onCancel() {
+
+  }
+
 }
