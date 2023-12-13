@@ -22,7 +22,7 @@ export class CourseFormComponent implements OnInit {
   }
 
   onSubmit() {
-
+    console.log(this.form.value);
   }
 
   onCancel() {
